@@ -1,0 +1,88 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Pastas de dependências
+node_modules/
+vendor/
+
+# Arquivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Cache e build
+dist/
+build/
+tmp/
+temp/
+*.cache
+*.bak
+
+# Arquivos de editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de sistema
+*.swp
+*.lock
+*.pid
+
+# Testes
+coverage/
+jest-html-reporters-*
+
+# Arquivos de banco de dados locais
+*.sqlite
+*.sqlite3
+*.db
+
+# Arquivos compactados
+*.zip
+*.tar.gz
+*.rar
+
+# Arquivos do OS
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.Python
+
+# Arquivos de pacotes do Windows
+*.exe
+*.msi
+
+# Arquivos de compilação C/C++
+*.out
+*.o
+*.obj
+
+# Arquivos de projetos diversos
+*.iml
+*.class
+*.jar
+*.war
+
+# Arquivos temporários do Git
+*.orig
+
+# Diretórios de IDEs comuns
+/.idea/
+/*.iml
+*.class
+*.ipr
+*.iws
+*.bak
