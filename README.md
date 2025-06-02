@@ -6,7 +6,6 @@
 * Python
 * FastAPI
 * Uvicorn
-* XXX
 
 **Descrição:** Implementação de XXX  
 **Objetivo:** XXX
@@ -21,11 +20,9 @@ XXX
 
 ### 2.1 Funcionalidades Principais
 
-* **Funcionalidade 01:** XXXX
-* **Funcionalidade 02:** XXXX
-* **Funcionalidade 03:** XXXX
-* **Funcionalidade 04:** XXXX
-* **Funcionalidade 05:** XXXX
+* **Funcionalidade 01:** Simular notas de corte do Enem.
+* **Funcionalidade 02:** Filtrar dentro do banco de questões por matéria, assunto, dificuldade e se já foi feita ou não pelo usuário.
+* **Funcionalidade 03:** Login e Cadastro de usuário
 
 ### 2.2 Arquitetura do Código
 ```
