@@ -8,7 +8,7 @@
 * Uvicorn
 
 **Descrição:** Implementação de XXX  
-**Objetivo:** XXX
+**Objetivo:** Apoiar estudantes do ensino médio e de cursinhos pré-vestibulares na preparação para o ENEM e vestibulares.
 
 ***
 
@@ -16,7 +16,7 @@
 
 ### O que é projeto?
 
-XXX  
+Um sistema web com o objetivo de apoiar estudantes do ensino médio e de cursinhos pré-vestibulares na preparação para o ENEM e vestibulares. O sistema busca oferecer uma plataforma intuitiva, que reúna funcionalidades voltadas à gestão do tempo, organização de conteúdos e suporte educacional personalizado, promovendo uma experiência de aprendizagem mais eficiente e acessível.
 
 ### 2.1 Funcionalidades Principais
 
@@ -34,9 +34,13 @@ Smartplan/
 
 ## 3. Etapas de Entrega (Cronograma Detalhado)
 
-### Etapa 1:  
-### Etapa 2:  
-### Etapa 3:  
-### Etapa 4:  
-### Etapa 5:  
-
+### Etapa 1:  23/04/25 
+### Etapa 2:  30/04/25  
+### Etapa 3:  14/05/25 
+### Etapa 4:  23/05/25   
+### Etapa 5:  01/06/25   
+### Etapa 6:  11/06/25   
+### Etapa 7:  25/06/25   
+### Etapa 8:  16/07/25   
+### Etapa 9:  23/07/25   
+### Etapa 10:  27/07/25   
