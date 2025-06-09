@@ -27,13 +27,16 @@ A proposta busca oferecer uma plataforma intuitiva, que reúna funcionalidades v
   * Compara os dados com notas de corte de cursos e instituições para auxiliar na tomada de decisão.
     
 **Funcionalidade 02:** Filtro de questões personalizado.
-* O sistema oferece uma base de dados com questões categorizadas por:
-  * Matéria
-  * Assunto
-  * Dificuldade
-  * Status (feita ou não pelo usuário)
-* Os usuários podem montar listas de estudo filtrando as questões conforme suas necessidades.
-* **Funcionalidade 03:** Login e Cadastro de usuário
+  * O sistema oferece uma base de dados com questões categorizadas por:
+    * Matéria
+    * Assunto
+    * Dificuldade
+    * Status (feita ou não pelo usuário)
+  * Os usuários podem montar listas de estudo filtrando as questões conforme suas necessidades.
+    
+**Funcionalidade 03:** Login e Cadastro de usuário
+  * Permite que cada usuário tenha seu próprio perfil com progresso salvo.
+  * Permite registrar estatísticas individuais, como questões resolvidas, listas salvas e simulações feitas.
 
 ### 2.2 Arquitetura do Código
 ```
