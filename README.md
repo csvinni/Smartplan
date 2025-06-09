@@ -6,6 +6,7 @@
 * Python
 * FastAPI
 * Uvicorn
+* MySQL
 
 **Descrição:** o SmartPlan é um sistema web com o objetivo de apoiar estudantes do ensino médio e de cursinhos pré-vestibulares na preparação para o ENEM e vestibulares, no contexto de organização de estudo e de tempo.
   
