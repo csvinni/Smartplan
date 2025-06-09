@@ -44,6 +44,10 @@ Smartplan/
 ├── main.py            # Ponto de entrada (inicialização)  
 ├── api.py             # Lógica da API   
 ├── models.py          # Modelos com Pydantic
+├── db_smartplan.sql   # Banco de Dados MySQL
+├── diagrama.pdf       # Digramas do Banco de Dados
+├── README.md          # Documentação   
+├── requirements.txt   # Requisitos para instalação
 ```
 
 ## 3. Etapas de Entrega (Cronograma Detalhado)
