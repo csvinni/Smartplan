@@ -34,13 +34,8 @@ Smartplan/
 
 ## 3. Etapas de Entrega (Cronograma Detalhado)
 
-### Etapa 1:  23/04/25 
-### Etapa 2:  30/04/25  
-### Etapa 3:  14/05/25 
-### Etapa 4:  23/05/25   
-### Etapa 5:  01/06/25   
-### Etapa 6:  11/06/25   
-### Etapa 7:  25/06/25   
-### Etapa 8:  16/07/25   
-### Etapa 9:  23/07/25   
-### Etapa 10:  27/07/25   
+### Etapa 1:  Requisitos do Sistema
+### Etapa 2:  Diagramas de Caso de Uso  
+### Etapa 3:  Criação de Banco de Dados 
+### Etapa 4:  Revisão das Etapas anteriores e possíveis alterações 
+### Etapa 5:  Construças da API 
