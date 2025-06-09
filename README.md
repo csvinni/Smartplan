@@ -21,11 +21,18 @@ A proposta busca oferecer uma plataforma intuitiva, que reúna funcionalidades v
 
 ### 2.1 Funcionalidades Principais
 
-* **Funcionalidade 01:** Simular notas de corte do Enem.
-* * Permite ao estudante simular sua colocação com base nas notas obtidas.
-* * Considera notas reais ou estimadas em cada área do conhecimento.
-* * Compara os dados com notas de corte de cursos e instituições para auxiliar na tomada de decisão.
-* **Funcionalidade 02:** Filtrar dentro do banco de questões por matéria, assunto, dificuldade e se já foi feita ou não pelo usuário.
+**Funcionalidade 01:** Simular notas de corte do Enem.
+  * Permite ao estudante simular sua colocação com base nas notas obtidas.
+  * Considera notas reais ou estimadas em cada área do conhecimento.
+  * Compara os dados com notas de corte de cursos e instituições para auxiliar na tomada de decisão.
+    
+**Funcionalidade 02:** Filtro de questões personalizado.
+* O sistema oferece uma base de dados com questões categorizadas por:
+  * Matéria
+  * Assunto
+  * Dificuldade
+  * Status (feita ou não pelo usuário)
+* Os usuários podem montar listas de estudo filtrando as questões conforme suas necessidades.
 * **Funcionalidade 03:** Login e Cadastro de usuário
 
 ### 2.2 Arquitetura do Código
