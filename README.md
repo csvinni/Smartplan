@@ -54,7 +54,36 @@ Smartplan/
 ## 3. Etapas de Entrega (Cronograma Detalhado)
 
 ### Etapa 1:  Requisitos do Sistema
+  * Identificação do público-alvo (estudantes do ensino médio e cursinhos).
+  * Entrevistas ou questionários para identificar dificuldades enfrentadas por estudantes na preparação para o ENEM.
+  * Definição dos requisitos funcionais (ex: simular notas, filtrar questões, login).
+  * Definição dos requisitos não funcionais (ex: acessibilidade, desempenho, segurança).
+  * Criação de um documento de requisitos do sistema (DRS).
+
 ### Etapa 2:  Diagramas de Caso de Uso  
-### Etapa 3:  Criação de Banco de Dados 
-### Etapa 4:  Revisão das Etapas anteriores e possíveis alterações 
+  * Identificação dos atores (usuário).
+  * Modelagem dos casos de uso principais: login, simulação de nota, filtro de questões, criação de listas, resolução de questões, relatórios.
+  * Elaboração de diagramas com ferramenta de modelagem (ex: PlantUML, Draw.io, Lucidchart, Graphviz).
+  * Revisão e validação com base nos requisitos levantados.
+
+### Etapa 3:  Criação de Banco de Dados
+  * Definição das entidades principais: usuarios, questoes, listas_questoes, lista_questoes_relacao.
+  * Criação do script SQL (db_smartplan.sql) com as tabelas e restrições.
+  * Testes iniciais com o banco de dados (inserções, consultas básicas).
+  * Validação do relacionamento entre as tabelas.
+
+### Etapa 4:  Revisão das Etapas anteriores e possíveis alterações
+  * Análise crítica dos requisitos versus modelagem de dados.
+  * Ajustes no banco de dados conforme feedback.
+  * Refinamento dos diagramas e nomenclaturas.
+  * Validação com supervisores acadêmicos.
+
 ### Etapa 5:  Construças da API 
+  * Criação do ambiente com FastAPI, Uvicorn, MySQL, e dependências no requirements.txt.
+  * Implementação dos principais endpoints:
+  * Cadastro e autenticação de usuários.
+  * Criação, listagem e simulação de notas.
+  * Filtro e manipulação de questões.
+  * Validação de entrada com Pydantic.
+  * Testes dos endpoints.
+  * Registro de erros e melhorias de segurança.
