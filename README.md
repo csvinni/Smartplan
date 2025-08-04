@@ -41,14 +41,20 @@ A proposta busca oferecer uma plataforma intuitiva, que reúna funcionalidades v
 
 ### 2.2 Arquitetura do Código
 ```
-Smartplan/  
-├── main.py            # Ponto de entrada (inicialização)  
-├── api.py             # Lógica da API   
-├── models.py          # Modelos com Pydantic
-├── db_smartplan.sql   # Banco de Dados MySQL
-├── diagrama.pdf       # Digramas do Banco de Dados
-├── README.md          # Documentação   
-├── requirements.txt   # Requisitos para instalação
+Smartplan/
+├── codigos/                 # Código-fonte principal da aplicação
+│   ├── main.py              # Ponto de entrada da aplicação FastAPI
+│   ├── api.py               # Definição das rotas e lógica da API
+│   ├── models.py            # Modelos de dados com Pydantic
+│   └── consumo.py           # Script cliente que consome a API (menu no terminal)
+
+├── components/              # Recursos auxiliares do projeto
+│   ├── db_smartplan.sql     # Script SQL para criação do banco de dados
+│   └── diagrama.pdf         # Diagramas UML do sistema
+
+├── README.md                # Documentação do projeto
+├── requirements.txt         # Dependências e ambiente
+
 ```
 
 ## 3. Etapas de Entrega (Cronograma Detalhado)
