@@ -6,15 +6,20 @@ def cadastrar_usuario():
     usuario = {
         "username": input("Username: "),
         "email": input("Email: "),
-        "senha": input("Senha: ")
+        "password": input("Senha: ")
     }
     resp = requests.post(f"{URL}/cadastro", json=usuario)
-    print("Resposta:", resp.json())
+    print("Status code:", resp.status_code)
+    try:
+        print("Resposta:", resp.json())
+    except Exception:
+        print("Resposta:", resp.text)
+
 
 def login_usuario():
     login = {
         "email": input("Email: "),
-        "senha": input("Senha: ")
+        "password": input("Senha: ")  
     }
     resp = requests.post(f"{URL}/login", json=login)
     print("Resposta:", resp.json())
@@ -25,13 +30,11 @@ def criar_questao():
         "assunto": input("Assunto: "),
         "dificuldade": input("Dificuldade (Fácil, Médio, Difícil): "),
         "enunciado": input("Enunciado da questão: "),
-        "alternativas": input("Alternativas (separadas por vírgula): ").split(","),
-        "correta": input("Alternativa correta: "),
-        "ja_respondida": False
+        "alternativas": [alt.strip() for alt in input("Alternativas (separadas por vírgula): ").split(",")],
+        "correta": int(input("Alternativa correta (índice 0 a 4): "))
     }
     resp = requests.post(f"{URL}/criar_questoes", json=questao)
     print("Resposta:", resp.json())
-
 
 def listar_questoes():
     resp = requests.get(f"{URL}/listar_questoes")
