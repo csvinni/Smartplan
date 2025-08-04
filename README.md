@@ -46,7 +46,8 @@ Smartplan/
 │   ├── main.py              # Ponto de entrada da aplicação FastAPI
 │   ├── api.py               # Definição das rotas e lógica da API
 │   ├── models.py            # Modelos de dados com Pydantic
-│   └── consumo.py           # Script cliente que consome a API (menu no terminal)
+│   ├── consumo.py           # Script cliente que consome a API (menu no terminal)
+|   └── database.py          # Script de conexão do banco de dados
 
 ├── components/              # Recursos auxiliares do projeto
 │   ├── db_smartplan.sql     # Script SQL para criação do banco de dados
